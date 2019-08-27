@@ -23,7 +23,9 @@
         type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -47,9 +49,9 @@
                             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                    href="#portfolio">Portfolio</a>
-                            </li>
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#portfolio">Portfolio</a>
+                        </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
                         </li>
@@ -64,7 +66,21 @@
                 <img class="img-fluid rounded-circle mb-5 d-block mx-auto" src="img/Profile.png" alt="">
                 <h1 class="text-uppercase mb-0">Jacob Roberts</h1>
                 <hr class="star-light">
-                <h2 class="font-weight-light">Software Developer and Web Developer</h2>
+                <h2 class="font-weight-light">Software and Web Developer</h2>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle"
+                            href="https://www.linkedin.com/in/robertsjake/">
+                            <i class="fab fa-fw fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle"
+                            href="https://github.com/Jacob-Roberts">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
 
@@ -73,30 +89,60 @@
             <div class="container">
                 <h2 class="text-center text-uppercase text-secondary mb-0">About Me</h2>
                 <hr class="star-dark mb-5">
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="lead">I am an experienced Developer with a demonstrated history of working in the
-                            consumer and enterprise services industry</p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="lead">
-                            <span class="h4 font-weight-bold">Skills:</span>
-                            <br />
-                            <dl>
-                                <dt>Languages</dt>
-                                <dd>(proficient) C#, Swift, Java, Javascript (familiar)
-                                    SQL, Objective-C</dd>
-                                <dt>Platforms</dt>
-                                <dd>React, .Net Core, Asp.Net, iOS</dd>
-                            </dl>
-                        </p>
-                    </div>
-                </div>
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="#">
-                        <i class="fas fa-download mr-2"></i>
-                        Download Now!
-                    </a>
+                <div class="w-100">
+                    <p>I am an experienced Developer with a demonstrated history of working in the
+                        consumer and enterprise services industry</p>
+                    <div class="subheading mb-2">Skills and Experience</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="fab fa-html5" data-toggle="tooltip" data-original-title="HTML5"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="fab fa-css3-alt" data-toggle="tooltip" data-original-title="CSS3"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="fab fa-js-square" data-toggle="tooltip" data-original-title="Javascript"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="fab fa-react" data-toggle="tooltip" data-original-title="React"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="fab fa-npm" data-toggle="tooltip"
+                                    data-original-title="Node Package Manager"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="icons8-c-sharp-logo" data-toggle="tooltip" data-original-title="C#"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+                                <i class="icons8-swift" data-toggle="tooltip" data-original-title="Swift"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <dl>
+                        <dt>Languages</dt>
+                        <dd>C#, Swift, Java, Javascript
+                            SQL, Objective-C</dd>
+                        <dt>Platforms</dt>
+                        <dd>
+
+                            <i class="fab fa-github"></i>
+                            React, .Net Core, Asp.Net, iOS
+                        </dd>
+                    </dl>
+                    </p>
                 </div>
             </div>
         </section>
@@ -111,7 +157,8 @@
                         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
                             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
+                                    <i class="fas fa-info fa-3x"></i>
+                                    <label>test</label>
                                 </div>
                             </div>
                             <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
@@ -121,7 +168,7 @@
                         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
                             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
+                                    <i class="fas fa-info fa-3x"></i>
                                 </div>
                             </div>
                             <img class="img-fluid" src="img/portfolio/cake.png" alt="">
@@ -131,7 +178,7 @@
                         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
                             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
+                                    <i class="fas fa-info fa-3x"></i>
                                 </div>
                             </div>
                             <img class="img-fluid" src="img/portfolio/circus.png" alt="">
@@ -141,7 +188,7 @@
                         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
                             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
+                                    <i class="fas fa-info fa-3x"></i>
                                 </div>
                             </div>
                             <img class="img-fluid" src="img/portfolio/game.png" alt="">
@@ -243,15 +290,17 @@
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item">
-                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/robertsjake/">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle"
+                                    href="https://www.linkedin.com/in/robertsjake/">
                                     <i class="fab fa-fw fa-linkedin-in"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                    <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Jacob-Roberts">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle"
+                                    href="https://github.com/Jacob-Roberts">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -259,7 +308,7 @@
         </footer>
 
         <div class="copyright py-4 text-center text-white">
-            <div class="container">
+            <div class="container mr-auto">
                 <small>Copyright &copy; Jacob Roberts 2019</small>
             </div>
         </div>
@@ -282,7 +331,8 @@
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
-                            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                            <h2 class="text-secondary text-uppercase mb-0">Phoebe is the best wife
+                            </h2>
                             <hr class="star-dark mb-5">
                             <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
@@ -438,7 +488,7 @@
         <script src="js/contact_me.js"></script>
 
         <!-- Custom scripts for this template -->
-        <script src="js/freelancer.min.js"></script>
+        <script src="js/freelancer.js"></script>
 
     </body>
 

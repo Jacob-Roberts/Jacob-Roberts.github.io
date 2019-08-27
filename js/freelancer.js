@@ -1,3 +1,11 @@
+$(document).ready(function(){
+  // Enable tooltips everywhere
+  $('[data-toggle="tooltip"]').tooltip({
+      placement : 'top'
+  });
+});
+
+
 (function($) {
   "use strict"; // Start of use strict
 
